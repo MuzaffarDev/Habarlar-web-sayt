@@ -1,25 +1,5 @@
-@import "./bkock/fonts";
+@import "./";
 @import "./bkock/norm";
+@import "./generals";
 
 
-*,
-*::after,
-*::before {
-box-sizing: border-box;
-}
-
-html {
-  height: 100vh;
-}
-
-body{
-  margin: 0;
-  padding: 0;
-}
-
-.container{
-  max-width: 1440px;
-  margin: 0 auto;
-  padding-left: 120px;
-  padding-right: 120px;
-}
