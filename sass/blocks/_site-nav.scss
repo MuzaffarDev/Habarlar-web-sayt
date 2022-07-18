@@ -1,0 +1,44 @@
+.site__nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 1px solid #d1d1d1;
+  margin-top: 30px;
+}
+
+.site__nav-menu {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+  padding-bottom: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #7f7f7f;
+
+&:first-child{
+margin-left: 0;
+}
+&:last-child{
+margin-right: 0;
+}
+
+}
+
+.site__bg{
+overflow: hidden;
+  border-radius: 8px;
+margin-top: 40px;
+margin-bottom: 50px;
+}
+
+.site__bg-banner{
+  width: 1200px;
+  height: 128px;
+  object-fit: auto;
+  object-fit: contain;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+

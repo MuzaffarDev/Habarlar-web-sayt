@@ -1,17 +1,19 @@
+html {
+  box-sizing: border-box;
+  height: 100vh;
+}
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
-}
-
-html {
-  height: 100vh;
+  box-sizing: inherit;
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-family: "Rubik", "Tahoma", sans-serif;
 }
 
 .container {

@@ -1,0 +1,33 @@
+.notifications {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 70px 25px 30px;
+  margin: 55px 75px;
+  background-image: url(/image/notifications-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+.notification__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.notific__btn {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 13px 30px;
+  border: none;
+  background-color: #f78b3b;
+  border-radius: 10px;
+
+  &:hover{
+    cursor: pointer;
+  }
+}

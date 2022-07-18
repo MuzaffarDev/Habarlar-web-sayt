@@ -1,0 +1,16 @@
+@mixin title($fw: 500, $fz: 20px, $color) {
+  font-weight: $fw;
+  font-size: $fz;
+  line-height: 26px;
+  color: $color;
+}
+
+@mixin link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #5e5f61;
+}
