@@ -1,0 +1,22 @@
+.the-world {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.left__section-news {
+  width: 68%;
+}
+
+@import "./norm";
+@import "./fonts";
+@import "./vh";
+@import "./general";
+
+//block
+@import "./blocks/header-top";
+@import "./blocks/site-nav";
+@import "./blocks/aside";
+@import "./web-page/news__pages";
+@import "./web-page/pages";
+@import "./web-page/section-info";
+@import "./blocks/footer";

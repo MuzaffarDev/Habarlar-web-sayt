@@ -1,7 +1,7 @@
 .right__aside-news {
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 33%;
   overflow: hidden;
 
 }
@@ -78,6 +78,8 @@
 .aside__bg {
     width: 393px;
     height: 338px;
+    justify-content: center;
+    align-items: center;
 
     &:hover{
       cursor: pointer;

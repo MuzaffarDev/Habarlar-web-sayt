@@ -4,14 +4,14 @@
   justify-content: space-between;
   padding: 25px 70px 25px 30px;
   margin: 55px 75px;
-  background-image: url(/image/notifications-bg.png);
+  background-image: url("/image/bg/notifications-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
 }
 
-.notification__title {
-  font-weight: 500;
+.notification__title{
+  font-weight:700;
   font-size: 20px;
   line-height: 26px;
   color: #000000;

@@ -3,7 +3,7 @@ footer {
 }
 .footer__container {
   background-color: $footer-color;
-  padding: 40px 120px;
+  padding: 40px 100px;
 }
 
 .footer__wrapper {
@@ -21,6 +21,8 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+
+
 .footer__info {
   width: 230px;
   .desc {
@@ -33,6 +35,7 @@ footer {
 .contact__list {
   list-style-type: none;
   column-count: 2;
+  margin-left: 200px;
 
   .contanct__list-item {
     margin-bottom: 20px;
